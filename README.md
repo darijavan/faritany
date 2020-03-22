@@ -1,4 +1,4 @@
-## Faritany
+# Faritany
 
 The typical Malagasy Faritany game
 
