@@ -1,2 +1,2 @@
 # Faritany
-Malagasy Faritany game with HTML / CSS / JS
+Malagasy Faritany game with React / HTML / CSS / JS
