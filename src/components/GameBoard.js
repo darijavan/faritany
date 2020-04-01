@@ -16,9 +16,7 @@ function GameBoard(props) {
         height: props.height || 500,
         backgroundColor: "white"
       }}
-    >
-      {props.children}
-    </div>
+    ></div>
   );
 }
 
