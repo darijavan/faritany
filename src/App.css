@@ -1,5 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 .App {
   background-color: #282c34;
   color: white;
   height: 100vh;
+  position: relative;
+}
+
+.Menu {
+  min-height: 100%;
+  text-align: center;
+}
+
+.GameBoard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto
+}
+
+.Dot {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Dot.FirstPlayer {
+  background-color: rgb(223, 74, 74);
+}
+
+.Dot.SecondPlayer {
+  background-color: rgb(34, 34, 34);
 }
